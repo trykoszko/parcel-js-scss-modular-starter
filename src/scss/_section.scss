@@ -1,0 +1,22 @@
+@import 'variables.scss';
+
+.section {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    &--spacing-default {
+        padding-top: $s;
+        padding-bottom: $s;
+
+        @include tablet {
+            padding-top: $s * 1.5;
+            padding-bottom: $s * 1.5;
+        }
+        @include desktop {
+            padding-top: $s * 2;
+            padding-bottom: $s * 2;
+        }
+    }
+}

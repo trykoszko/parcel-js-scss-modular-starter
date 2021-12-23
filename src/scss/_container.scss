@@ -1,0 +1,26 @@
+@import 'variables.scss';
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+
+    width: 100%;
+    max-width: $container-max-width;
+
+    padding-left: $s;
+    padding-right: $s;
+
+    @include desktop {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    &--fullwidth {
+        max-width: 100%;
+
+        @include desktop {
+            padding-left: $s;
+            padding-right: $s;
+        }
+    }
+}

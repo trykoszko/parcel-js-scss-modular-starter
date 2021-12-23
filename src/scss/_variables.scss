@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+
+$font-family-default: 'Open Sans';
+$font-family-serif: 'Playfair Display';
+
+$font-size-default: '14px';
+
+$color-primary: #000000;
+$color-secondary: darkblue;
+
+$s: 20px;
+
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 800px;
+$breakpoint-desktop: 1200px;
+
+$container-max-width: 1180px;
+
+/**
+ * You can define all CSS variables here
+ */
+:root {
+    --color-primary: $color-primary;
+    --font-size-default: $font-family-default;
+}

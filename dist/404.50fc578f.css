@@ -1,0 +1,163 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap";
+/**
+ * Base files
+ */
+/**
+ * You can define all CSS variables here
+ */
+:root {
+  --color-primary: $color-primary;
+  --font-size-default: $font-family-default;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: "14px";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Playfair Display, serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+p {
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
+}
+a:not([class]) {
+  text-decoration: none;
+  position: relative;
+  color: darkblue;
+  cursor: pointer;
+}
+a:not([class])::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: darkblue;
+  transition: all 0.2s ease;
+}
+a:not([class]):hover::before {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+a:hover {
+  color: darkblue;
+}
+.back-to-list {
+  padding: 10px;
+}
+/**
+ * You can define all CSS variables here
+ */
+:root {
+  --color-primary: $color-primary;
+  --font-size-default: $font-family-default;
+}
+/**
+ * You can define all CSS variables here
+ */
+:root {
+  --color-primary: $color-primary;
+  --font-size-default: $font-family-default;
+}
+.four-oh-four {
+  background: red;
+}
+/**
+ * Partials
+ */
+/**
+ * You can define all CSS variables here
+ */
+:root {
+  --color-primary: $color-primary;
+  --font-size-default: $font-family-default;
+}
+.section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.section--spacing-default {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 800px) {
+  .section--spacing-default {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section--spacing-default {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+/**
+ * You can define all CSS variables here
+ */
+:root {
+  --color-primary: $color-primary;
+  --font-size-default: $font-family-default;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1180px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.container--fullwidth {
+  max-width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .container--fullwidth {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.hero {
+  background: pink;
+}
+.teaser {
+  color: darkgreen;
+}
+/*# sourceMappingURL=404.50fc578f.css.map */
