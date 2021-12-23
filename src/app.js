@@ -11,6 +11,11 @@ import './module-js/*'
 import './module-styles/*'
 
 /**
+ * External dependencies / Vendor
+ */
+import 'swiper/swiper.scss'
+
+/**
  * Initialize scripts
  */
 async function initScripts() {

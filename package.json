@@ -2,9 +2,8 @@
   "name": "storybook2",
   "version": "1.0.0",
   "license": "MIT",
-  "source": "src/index.html",
   "scripts": {
-    "start": "rm -rf ./dist && parcel './src/*.html'",
+    "start": "rm -rf ./dist && parcel ./src/*.html",
     "build": "rm -rf ./dist && parcel build"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
@@ -17,5 +16,7 @@
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.2"
   },
-  "source": ["src/index.html", "src/modules/*.html"]
+  "dependencies": {
+    "swiper": "^7.3.4"
+  }
 }
